@@ -1,23 +1,17 @@
+const browserVersion = 'Chrome'
+function getBrowserVersion(){
 
-//STRING
-var firstName = 'Lavannya123'
-console.log(firstName ,"Typeof firstName:" + typeof firstName);
+    
+    if(browserVersion = 'Chrome'){
+        
+        var browserVersion = 'Version121'
+        let browserVersion2 = 'Versionlet'
+        
+    }
+    
+    console.log('Outside the Block', browserVersion);
+    console.log('Outside the Block', browserVersion2);
+}
 
-var companyName = 'TCS'
-console.log(companyName);
-console.log("Typeof companyName:" + typeof companyName);
-
-//NUMBER
-var phoneNumber = 9400611324
-console.log(phoneNumber);
-console.log("Typeof phonenumber:" + typeof phoneNumber);
-
-//BOOLEAN
-var isAutomation = true
-console.log(isAutomation);
-console.log("Typeof isAutomation:" + typeof isAutomation);
-
-//UNDEFINED
-var hasPlaywright
-console.log(hasPlaywright);
-console.log("Typeof hasPlaywright:" + typeof hasPlaywright);
+getBrowserVersion()
+//console.log('Outside the function', browserVersion);
